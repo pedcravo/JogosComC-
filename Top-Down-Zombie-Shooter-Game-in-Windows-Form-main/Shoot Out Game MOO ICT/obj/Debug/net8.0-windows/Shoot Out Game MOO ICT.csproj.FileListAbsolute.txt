@@ -1,0 +1,17 @@
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\bin\Debug\net8.0-windows\Shoot Out Game MOO ICT.exe
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\bin\Debug\net8.0-windows\Shoot Out Game MOO ICT.deps.json
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\bin\Debug\net8.0-windows\Shoot Out Game MOO ICT.runtimeconfig.json
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\bin\Debug\net8.0-windows\Shoot Out Game MOO ICT.dll
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\bin\Debug\net8.0-windows\Shoot Out Game MOO ICT.pdb
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot_Out_Game_MOO_ICT.Form1.resources
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot_Out_Game_MOO_ICT.Properties.Resources.resources
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.csproj.GenerateResource.cache
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.AssemblyInfoInputs.cache
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.AssemblyInfo.cs
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.dll
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\refint\Shoot Out Game MOO ICT.dll
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.pdb
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\Shoot Out Game MOO ICT.genruntimeconfig.cache
+D:\Desenvolvimento\!codigos\CS\Presencial\!atividades\11\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\Shoot Out Game MOO ICT\obj\Debug\net8.0-windows\ref\Shoot Out Game MOO ICT.dll
