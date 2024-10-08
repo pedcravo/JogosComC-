@@ -1,3 +1,4 @@
+using System.IO.Packaging;
 using System.Numerics;
 
 namespace Shoot_Out_Game_MOO_ICT
@@ -76,9 +77,16 @@ namespace Shoot_Out_Game_MOO_ICT
                     if (player.Bounds.IntersectsWith(x.Bounds))
                     {
                         playerHealth -= 1;
+                        x.Left -= zombieSpeed;
+                        x.Top -= zombieSpeed;
                     }
 
-
+                   /* if (x.Bounds.IntersectsWith(x.Bounds))
+                    {
+                        x.Left = zombieSpeed;
+                        x.Top = zombieSpeed;
+                    }
+                   */
                     if (x.Left > player.Left)
                     {
                         x.Left -= zombieSpeed;
@@ -100,6 +108,7 @@ namespace Shoot_Out_Game_MOO_ICT
                         ((PictureBox)x).Image = Properties.Resources.zdown;
                     }
 
+                    
                 }
 
 
@@ -192,8 +201,8 @@ namespace Shoot_Out_Game_MOO_ICT
 
             if (e.KeyCode == Keys.Space && ammo > 0 && gameOver == false)
             {
-                ammo--;
                 ShootBullet(facing);
+                ammo--;
 
 
                 if (ammo < 1)
@@ -279,6 +288,14 @@ namespace Shoot_Out_Game_MOO_ICT
             GameTimer.Start();
         }
 
+        private void player_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

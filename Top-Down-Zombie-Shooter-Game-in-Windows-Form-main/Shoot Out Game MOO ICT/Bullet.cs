@@ -26,7 +26,7 @@ namespace Shoot_Out_Game_MOO_ICT
         {
 
             bullet.BackColor = Color.White;
-            bullet.Size = new Size(5, 5);
+            bullet.Size = new Size(6, 6);
             bullet.Tag = "bullet";
             bullet.Left = bulletLeft;
             bullet.Top = bulletTop;
@@ -65,7 +65,7 @@ namespace Shoot_Out_Game_MOO_ICT
             }
 
 
-            if (bullet.Left < 10 || bullet.Left > 860 || bullet.Top < 10 || bullet.Top > 600)
+            if (bullet.Left < 5 || bullet.Left > 1200 || bullet.Top < 5 || bullet.Top > 1000)
             {
                 bulletTimer.Stop();
                 bulletTimer.Dispose();
