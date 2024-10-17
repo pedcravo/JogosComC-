@@ -119,7 +119,48 @@ namespace Shoot_Out_Game_MOO_ICT.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
+        /// Peashooter Down
+        internal static System.Drawing.Bitmap peashooterD
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("peashooterD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// Peashooter Left
+        internal static System.Drawing.Bitmap peashooterL
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("peashooterL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// Peashooter Right
+        internal static System.Drawing.Bitmap peashooterR
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("peashooterR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// Peashooter Top
+        internal static System.Drawing.Bitmap peashooterT
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("peashooterT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>

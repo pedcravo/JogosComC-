@@ -6,7 +6,7 @@ namespace Shoot_Out_Game_MOO_ICT
     public partial class Form1 : Form
     {
 
-        bool goLeft, goRight, goUp, goDown, gameOver;
+        bool goLeft, goRight, goUp, goDown, gameOver, punchR;
         string facing = "up";
         int playerHealth = 100;
         int speed = 10;
@@ -76,17 +76,24 @@ namespace Shoot_Out_Game_MOO_ICT
 
                     if (player.Bounds.IntersectsWith(x.Bounds))
                     {
-                        playerHealth -= 1;
-                        x.Left -= zombieSpeed;
-                        x.Top -= zombieSpeed;
-                    }
+                        if (punchR == true)
+                        {
+                            score++;
 
-                   /* if (x.Bounds.IntersectsWith(x.Bounds))
-                    {
-                        x.Left = zombieSpeed;
-                        x.Top = zombieSpeed;
+                            this.Controls.Remove(x);
+                            ((PictureBox)x).Dispose();
+                            zombiesList.Remove(((PictureBox)x));
+                            MakeZombies();
+                        }
+                        else
+                        {
+                            playerHealth -= 2;
+                            x.Left -= zombieSpeed;
+                            x.Top -= zombieSpeed;
+                        }
+
                     }
-                   */
+                  
                     if (x.Left > player.Left)
                     {
                         x.Left -= zombieSpeed;
@@ -147,9 +154,16 @@ namespace Shoot_Out_Game_MOO_ICT
 
             if (e.KeyCode == Keys.Left)
             {
+                if (score >= 120)
+                {
+                    player.Image = Properties.Resources.peashooterL;
+                }
+                else
+                {
+                    player.Image = Properties.Resources.left;
+                }
                 goLeft = true;
                 facing = "left";
-                player.Image = Properties.Resources.left;
             }
 
             if (e.KeyCode == Keys.Right)
@@ -173,7 +187,10 @@ namespace Shoot_Out_Game_MOO_ICT
                 player.Image = Properties.Resources.down;
             }
 
-
+            if(e.KeyCode == Keys.R)
+            {
+                punchR = true;
+            }
 
         }
 
@@ -198,6 +215,11 @@ namespace Shoot_Out_Game_MOO_ICT
             {
                 goDown = false;
             }
+            
+            if(e.KeyCode == Keys.R)
+            {
+                punchR = false;
+            }
 
             if (e.KeyCode == Keys.Space && ammo > 0 && gameOver == false)
             {
@@ -215,6 +237,7 @@ namespace Shoot_Out_Game_MOO_ICT
             {
                 RestartGame();
             }
+
 
         }
 
