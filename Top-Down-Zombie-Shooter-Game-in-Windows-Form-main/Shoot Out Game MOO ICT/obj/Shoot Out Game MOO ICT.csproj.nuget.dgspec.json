@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevC\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj": {}
+    "C:\\Users\\T-Gamer\\Desktop\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj": {}
   },
   "projects": {
-    "C:\\DevC\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj": {
+    "C:\\Users\\T-Gamer\\Desktop\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevC\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj",
+        "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj",
         "projectName": "Shoot Out Game MOO ICT",
-        "projectPath": "C:\\DevC\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj",
-        "packagesPath": "C:\\Users\\alunodev07\\.nuget\\packages\\",
-        "outputPath": "C:\\DevC\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\obj\\",
+        "projectPath": "C:\\Users\\T-Gamer\\Desktop\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\Shoot Out Game MOO ICT.csproj",
+        "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\T-Gamer\\Desktop\\Top-Down-Zombie-Shooter-Game-in-Windows-Form-main\\Shoot Out Game MOO ICT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunodev07\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

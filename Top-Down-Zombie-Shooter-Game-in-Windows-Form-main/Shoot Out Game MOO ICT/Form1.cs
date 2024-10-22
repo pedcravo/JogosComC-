@@ -1,3 +1,4 @@
+using Shoot_Out_Game_MOO_ICT.Properties;
 using System.IO.Packaging;
 using System.Numerics;
 
@@ -14,6 +15,7 @@ namespace Shoot_Out_Game_MOO_ICT
         int zombieSpeed = 3;
         Random randNum = new Random();
         int score;
+        int currentBackground = 0;
         List<PictureBox> zombiesList = new List<PictureBox>();
 
         public Form1()
@@ -55,7 +57,7 @@ namespace Shoot_Out_Game_MOO_ICT
                 player.Top += speed;
             }
 
-
+            ChangeBackgroundBasedOnScore();
 
             foreach (Control x in this.Controls)
             {
@@ -138,10 +140,33 @@ namespace Shoot_Out_Game_MOO_ICT
                     }
                 }
 
-
+               
             }
 
 
+        }
+        private void ChangeBackgroundBasedOnScore()
+        {
+            if (score >= 20 && score < 40 && currentBackground != 1)
+            {
+                this.BackgroundImage = Properties.Resources.background1; // Cenário 1
+                currentBackground = 1;
+            }
+            else if (score >= 40 && score < 60 && currentBackground != 2)
+            {
+                this.BackgroundImage = Properties.Resources.background2; // Cenário 2
+                currentBackground = 2;
+            }
+            else if (score >= 60 && score < 80 && currentBackground != 3)
+            {
+                this.BackgroundImage = Properties.Resources.background3; // Cenário 3
+                currentBackground = 3;
+            }
+            else if (score >= 80 && currentBackground != 4)
+            {
+                this.BackgroundImage = Properties.Resources.background4; // Cenário 4
+                currentBackground = 4;
+            }
         }
 
         private void KeyIsDown(object sender, KeyEventArgs e)
@@ -154,7 +179,7 @@ namespace Shoot_Out_Game_MOO_ICT
 
             if (e.KeyCode == Keys.Left)
             {
-                if (score >= 120)
+                if (score >= 10)
                 {
                     player.Image = Properties.Resources.peashooterL;
                 }
@@ -168,23 +193,44 @@ namespace Shoot_Out_Game_MOO_ICT
 
             if (e.KeyCode == Keys.Right)
             {
+                if (score > 10)
+                {
+                    player.Image = Properties.Resources.peashooterR;
+                }
+                else
+                {
+                    player.Image = Properties.Resources.right;
+                }
                 goRight = true;
                 facing = "right";
-                player.Image = Properties.Resources.right;
             }
 
             if (e.KeyCode == Keys.Up)
             {
+                if (score > 10)
+                {
+                    player.Image = Properties.Resources.peashooterT;
+                }
+                else
+                {
+                    player.Image = Properties.Resources.up;
+                }
                 goUp = true;
                 facing = "up";
-                player.Image = Properties.Resources.up;
             }
 
             if (e.KeyCode == Keys.Down)
             {
+                if (score > 10)
+                {
+                    player.Image = Properties.Resources.peashooterD;
+                }
+                else
+                {
+                    player.Image = Properties.Resources.down;
+                }
                 goDown = true;
                 facing = "down";
-                player.Image = Properties.Resources.down;
             }
 
             if(e.KeyCode == Keys.R)
