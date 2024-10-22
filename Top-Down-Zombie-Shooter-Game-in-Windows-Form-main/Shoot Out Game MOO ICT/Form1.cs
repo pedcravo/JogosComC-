@@ -154,16 +154,9 @@ namespace Shoot_Out_Game_MOO_ICT
 
             if (e.KeyCode == Keys.Left)
             {
-                if (score >= 120)
-                {
-                    player.Image = Properties.Resources.peashooterL;
-                }
-                else
-                {
-                    player.Image = Properties.Resources.left;
-                }
                 goLeft = true;
                 facing = "left";
+                player.Image = Properties.Resources.left;
             }
 
             if (e.KeyCode == Keys.Right)
